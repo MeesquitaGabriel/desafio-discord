@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyCord • Comunidade que funciona</title>
+    <meta name="description" content="Landing page responsiva inspirada no Discord para estudo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <a class="brand" href="#topo" aria-label="Logotipo MyCord">
+          <img src="./assets/logo.svg" alt="MyCord">
+        </a>
+        <nav class="nav" aria-label="Primária">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+          <ul id="menu" class="menu">
+            <li><a href="#features">Recursos</a></li>
+            <li><a href="#seguranca">Confiável</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Imagine um lugar...</h1>
+            <p>Organize conversas por texto, voz e vídeo. Crie um espaço por convite onde você se sinta em casa.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#download">Baixar para Windows</a>
+              <a class="btn btn-dark" href="#">Abra no seu navegador</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <img src="./assets/hero.svg" alt="" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container feature">
+          <div class="feature-art">
+            <img src="./assets/feature-1.svg" alt="Exemplo de canais e chats">
+          </div>
+          <div class="feature-copy">
+            <h2>Crie um espaço controlado por convite</h2>
+            <p>Monte servidores com canais organizados para cada assunto. Controle quem entra, quem fala e o que acontece.</p>
+          </div>
+        </div>
+
+        <div class="container feature feature--alt">
+          <div class="feature-art">
+            <img src="./assets/feature-2.svg" alt="Exemplo de voz conectada">
+          </div>
+          <div class="feature-copy">
+            <h2>Aqui é fácil se encontrar</h2>
+            <p>Entre e saia dos canais de voz sem fricção. Veja quem está on-line e entre na conversa com um clique.</p>
+          </div>
+        </div>
+
+        <div class="container feature">
+          <div class="feature-art">
+            <img src="./assets/feature-3.svg" alt="Exemplo de eventos e moderação">
+          </div>
+          <div class="feature-copy">
+            <h2>Para poucos e para muitos</h2>
+            <p>Funciona para grupos de estudo, guildas e grandes comunidades. Ferramentas de moderação e eventos inclusas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="seguranca">
+        <div class="container grid-2">
+          <div>
+            <h2>Tecnologia de conexão confiável</h2>
+            <p>Voz de baixa latência, vídeo nítido e mensagens em tempo real. Infraestrutura distribuída para manter tudo estável.</p>
+          </div>
+          <div class="card media">
+            <img src="./assets/feature-1.svg" alt="Videochamada em dispositivos">
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="download">
+        <div class="container center">
+          <h2>Baixe e comece</h2>
+          <p>Disponível para Windows, macOS, Linux, Android e iOS.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#">Baixar</a>
+            <a class="btn btn-outline" href="#topo">Voltar ao topo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© 2025 MyCord. Projeto educativo.</small>
+        <a class="to-top" href="#topo">↑</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
